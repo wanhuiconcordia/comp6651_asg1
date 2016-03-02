@@ -1,0 +1,8 @@
+aabb
+abcdabcdaa
+abcabab
+asasasas
+ababccddcc
+abcd
+abbb
+aaaaa
