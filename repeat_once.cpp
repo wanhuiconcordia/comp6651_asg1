@@ -2,13 +2,24 @@
 #include <iostream>
 int repeat_once(std::string& str){
     int strLen = str.length();
-    char A[strLen];
+    char *A = new char[strLen];
     str.copy(A, strLen);
+
+    removeOccuranceOne(A, strLen);
+
+    std::cout << "after remove occurance One, the length: " << strLen << std::endl;
+    for( auto i = 0; i < strLen; i++){
+        std::cout << A[i];
+    }
+    std::cout << std::endl;
     char prefixArray[strLen];
     int n = 0;
     for(int c = 2; c <= strLen; c += 2){
-        n += m_repeat_once(prefixArray, 0, A, 0, strLen - 1, c, c);
+        int nn =  m_repeat_once(prefixArray, 0, A, 0, strLen - 1, c, c);
+	std::cout << "Take " << c << " from " << strLen << " -->" << nn << std::endl;
+	n += nn;
     }
+    delete A;
     return n;
 }
 
@@ -36,7 +47,23 @@ int m_repeat_once(char* prefix, int prefixSize, char* A, int start, int end, int
     return n;
 }
 
+void removeOccuranceOne(char* A, int& size){
+    int *B = new int[26];
+    std::fill(B, B + 26, 0);
+    for(auto i = 0; i < size; i++){
+        B[A[i] - 'a'] += 1;
+    }
 
+    int p = 0;
+    for(auto i = 0; i < size; i++){
+        if(B[A[i] - 'a'] > 1){
+            A[p++] = A[i];
+        }
+    }
+
+    size = p;
+    delete B;
+}
 
 typedef struct{
     char c;

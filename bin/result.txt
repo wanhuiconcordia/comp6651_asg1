@@ -1,0 +1,88 @@
+read from:abcabc.txt
+after remove occurance One, the length: 6
+abcabc
+Take 2 from 6 -->3
+Take 4 from 6 -->3
+Take 6 from 6 -->1
+Found 7 repeat-once sub-string in abcabc (string length: 6)
+Total 7 repeat-once sub-string in file:abcabc.txt
+Spent 0 milliseconds
+read from:abcabcd.txt
+after remove occurance One, the length: 6
+abcabc
+Take 2 from 6 -->3
+Take 4 from 6 -->3
+Take 6 from 6 -->1
+Found 7 repeat-once sub-string in abcabcd (string length: 7)
+Total 7 repeat-once sub-string in file:abcabcd.txt
+Spent 0 milliseconds
+read from:dabcabcd.txt
+after remove occurance One, the length: 8
+dabcabcd
+Take 2 from 8 -->4
+Take 4 from 8 -->3
+Take 6 from 8 -->1
+Take 8 from 8 -->0
+Found 8 repeat-once sub-string in dabcabcd (string length: 8)
+Total 8 repeat-once sub-string in file:dabcabcd.txt
+Spent 0 milliseconds
+read from:adbcabcd.txt
+after remove occurance One, the length: 8
+adbcabcd
+Take 2 from 8 -->4
+Take 4 from 8 -->4
+Take 6 from 8 -->1
+Take 8 from 8 -->0
+Found 9 repeat-once sub-string in adbcabcd (string length: 8)
+Total 9 repeat-once sub-string in file:adbcabcd.txt
+Spent 0 milliseconds
+read from:abdcabcd.txt
+after remove occurance One, the length: 8
+abdcabcd
+Take 2 from 8 -->4
+Take 4 from 8 -->5
+Take 6 from 8 -->2
+Take 8 from 8 -->0
+Found 11 repeat-once sub-string in abdcabcd (string length: 8)
+Total 11 repeat-once sub-string in file:abdcabcd.txt
+Spent 0 milliseconds
+read from:abcdabcd.txt
+after remove occurance One, the length: 8
+abcdabcd
+Take 2 from 8 -->4
+Take 4 from 8 -->6
+Take 6 from 8 -->4
+Take 8 from 8 -->1
+Found 15 repeat-once sub-string in abcdabcd (string length: 8)
+Total 15 repeat-once sub-string in file:abcdabcd.txt
+Spent 0 milliseconds
+read from:abcadbcd.txt
+after remove occurance One, the length: 8
+abcadbcd
+Take 2 from 8 -->4
+Take 4 from 8 -->5
+Take 6 from 8 -->2
+Take 8 from 8 -->0
+Found 11 repeat-once sub-string in abcadbcd (string length: 8)
+Total 11 repeat-once sub-string in file:abcadbcd.txt
+Spent 0 milliseconds
+read from:abcabdcd.txt
+after remove occurance One, the length: 8
+abcabdcd
+Take 2 from 8 -->4
+Take 4 from 8 -->4
+Take 6 from 8 -->1
+Take 8 from 8 -->0
+Found 9 repeat-once sub-string in abcabdcd (string length: 8)
+Total 9 repeat-once sub-string in file:abcabdcd.txt
+Spent 0 milliseconds
+read from:abcabcdd.txt
+after remove occurance One, the length: 8
+abcabcdd
+Take 2 from 8 -->4
+Take 4 from 8 -->3
+Take 6 from 8 -->1
+Take 8 from 8 -->0
+Found 8 repeat-once sub-string in abcabcdd (string length: 8)
+Total 8 repeat-once sub-string in file:abcabcdd.txt
+Spent 0 milliseconds
